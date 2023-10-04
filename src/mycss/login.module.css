@@ -1,0 +1,79 @@
+.bodyContainer {
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh;
+    background: none;
+    background-image: url('https://cdn.helioswatchstore.com/production/media/main%20banner%20mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.loginContainer{
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    border: 2px solid black;
+    border: 1px solid white;
+    width: 30vw;
+    height: 40vh;
+    margin: auto;
+    border-radius: 19px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 0px;
+   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+.oneo{
+    background-color: transparent;
+    border-radius: 30px;
+    height: 30px;
+    outline:none;
+    font-size: 20px;
+    width: 29vw;
+    border: none;
+    border-bottom: 2px solid rgb(195, 195, 195);
+}
+.loginContainer button{
+    background-color: rgb(0,190,199);
+    color: white;
+    height: 38px;
+    width: 29vw;
+    transition: 0.7s;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;  
+}
+.loginContainer button:hover{
+    border: 1px solid rgb(0,190,199);
+    background-color: white;
+    color: rgb(0,190,199);
+}
+.otpInput{
+    height: 3vw;
+    width: 2vw;
+    border-radius: 8px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+.mayus{
+    display: flex;
+    flex-direction: row;
+    column-gap: 17px;
+    padding: 5px;
+}

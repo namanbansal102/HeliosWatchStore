@@ -1,0 +1,9 @@
+<div className={styles.cartContainer}>
+        <img src="https://www.helioswatchstore.com/media/wysiwyg/empty_card.png" alt="" srcset="" />
+        <h1>Your Bag Feels Empty :{"("}</h1>
+        <h3>There is Nothing in your Bag.{"\n"}Lets add Some items.</h3>
+        <Link to='/watches'>
+            <button>Continue Shopping</button>
+        
+            </Link>
+    </div>

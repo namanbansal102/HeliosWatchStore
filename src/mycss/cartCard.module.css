@@ -1,0 +1,33 @@
+.my_card{
+    padding: 5px;
+    background-color: rgb(249, 248, 248);
+    
+    border-radius: 15px;
+    width: 70vw;
+    margin: auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+.image_heading{
+    
+    display: flex;
+    column-gap: 90px;
+}
+.image_heading img{
+    height: 35vh;
+    border-radius: 15px;
+}
+.my_card button{
+    border: none;
+    margin-top: 5px;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+.my_card button:hover{
+    color: rgb(48, 198, 138);
+}

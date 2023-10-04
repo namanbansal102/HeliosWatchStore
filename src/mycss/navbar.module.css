@@ -1,0 +1,179 @@
+.header{
+    z-index: 1111111111;
+    width: 99vw;
+    height: 84px;
+    display: flex;
+    column-gap: 200px;
+    position: fixed;
+    background-color: white;
+    
+}
+.navImage{
+    height: 50px;
+    width: 100px;
+
+}
+.navUl{
+    
+
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+.navItems{
+
+margin-top: 14px;
+font-size: 17px;
+height: fit-content;
+color: grey;
+
+}
+.navItems:hover{
+    color: aqua;
+}
+.navRight{
+    display: flex;
+    column-gap: 20px;
+}
+.navRight i{
+   
+    margin-top: 12px;
+    font-size: 23px;
+    height: fit-content;
+}
+.navRight input{
+    padding: 2px;
+    margin-top: 9px;
+    border-radius: 20px;
+    height: 30px;
+}
+.navRight i:hover{
+    color: aqua;
+}
+.homeImage{
+    
+    height: 65vh;
+    background-image: url("https://cdn.helioswatchstore.com/production/media/main%20banner%20desktop.png");
+    background-position: center;
+    background-size: 100% 100%;
+}
+.homeCards{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-top: 35px;
+    justify-content: center;
+}
+.homeCard{
+    
+    display: flex;
+    width: 230px;
+    height: 100px;
+    border-radius: 17px;
+    box-shadow: 1px 3px 10px rgb(132, 126, 126);
+}
+.homeCard img{
+    height: 70px;
+    width: 70px;
+    
+    margin-top: 20px;
+
+}
+.homeCardLeft{
+    font-size: 20px;
+   
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    margin-left: 10px;
+    
+    
+}
+.linkCard{
+    font-size: 15px;
+    
+    text-decoration: none;
+    color: grey;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.sale{
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    column-gap: 40px;
+}
+.saleCard img{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 15px;
+
+}
+.saleCard{
+    
+   
+    height: fit-content;
+    width: fit-content;
+}
+.saleCard:hover{
+    position: relative;
+    bottom:5px;
+    transform: 0.2;
+}
+.loveEarth img{
+    border-radius: 15px;
+    height: 40vh;
+    width: 97vw;
+}
+.loveEarth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navUser{
+    
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 7px;
+}
+.navUser button{
+    cursor: pointer;
+    font-size: 10px;
+    width: fit-content;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.navRightuserAcc{
+   
+    width: fit-content;
+}
+.linkUser{
+    padding: 3px;
+    font-size: 10px;
+    text-decoration: none;
+    color: grey;
+}
+.abcd{
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+}
+#userClick:hover .navRightuserAcc{
+    
+    visibility: visible;
+}
+.navItemLink:hover{
+    color: aqua;
+
+}
